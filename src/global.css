@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+
+
+@import 'tailwindcss';
+
+
+@theme {
+    --font-bagel: 'Bagel Fat One', cursive;
+    --font-poppins: 'Poppins', sans-serif;
+    --font-titan: 'Titan One', sans-serif;
+    --font-hachi: 'Hachi Maru Pop', cursive;
+}
+
+.active-bullet:hover {
+    animation: active-bullet 1s ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes active-bullet {
+    0% {
+        outline-width: 2px;
+    }
+    50% {
+        outline-width: 4px;
+    }
+    100% {
+        outline-width: 2px;
+    }
+    
+}
+
+.landing-heroSection{
+  background-image: url(/src/assets/images/heroImg.png);
+  @apply flex items-center justify-center flex-col w-full h-[500px] bg-cover bg-center;
+}
+
+.landing-bullet-container {
+    @apply flex flex-col items-center rounded-full outline-4 outline-offset-2 outline-[#0C35BC]/50;
+}
+
+.landing-bullet-texts {
+    @apply font-poppins font-normal text-xl;
+}
+
+.landing-join-button {
+    @apply bg-[#0C35BC] w-[500px] h-[60px] outline-4 outline-offset-2
+    outline-[#0C35BC]/50 font-poppins font-semibold text-2xl text-white rounded-[10px] cursor-pointer
+    hover:scale-[0.9] hover:font-bold transition-all duration-300;
+}
+
+.landing-billing{
+    background-image: url(/src/assets/images/heroImg.png);
+    @apply w-full flex flex-col items-center justify-center py-8 bg-cover bg-center;
+}
+
+.landing-subscribe-input {
+    @apply w-[300px] h-[40px] font-poppins font-semibold text-black outline-0 p-2 caret-[#0C35BC];
+}
+
+
+.landing-subscribe-button {
+    @apply flex items-center justify-center px-4 min-w-[150px] h-[40px] font-poppins font-light border-2 border-[#0C35BC]/50 rounded-[5px] bg-[#0C35BC]
+    text-white cursor-pointer hover:bg-white hover:text-[#0C35BC] hover:font-semibold
+    hover:border-[#0C35BC] transition-all duration-300;
+}
+
+.tableHead{
+    @apply bg-[#0C35BC] border border-black text-center text-white font-poppins font-bold text-[12px] h-[50px];
+}
+
+.tableData{
+    @apply border border-black text-center font-poppins font-medium text-[12px] py-2;
+}
