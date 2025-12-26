@@ -12,6 +12,7 @@ export default defineConfig(() => {
       react(),
       tailwindcss()
     ],
+    base: "/electify",
     resolve: {
       alias: {
         '@': path.resolve(path.dirname(new URL(import.meta.url).pathname), 'src'),

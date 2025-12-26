@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "pnpm run build",
-    "deploy": "gh-pages-clean && gh-pages -d dist -r https://github.com/minisketOriG/electify.git"
+    "deploy": "gh-pages-clean && gh-pages -d dist"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",

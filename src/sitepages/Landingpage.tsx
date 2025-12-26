@@ -2,8 +2,8 @@
 import { NavLink } from "react-router-dom";
 
 //components
-import PageFooter from "../components/ClientPageComponents/PageFooter";
-import PageHeader from "../components/ClientPageComponents/PageHeader";
+import PageFooter from "@components/ClientPageComponents/PageFooter";
+import PageHeader from "@components/ClientPageComponents/PageHeader";
 
 //icons
 import { IoIosArrowDropdownCircle } from "react-icons/io";
