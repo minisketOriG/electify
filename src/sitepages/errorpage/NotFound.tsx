@@ -11,7 +11,7 @@ const NotFound = () => {
                 <h1 className="text-[#0C35BC] text-5xl font-bagel font-bold">Ooops!</h1>
                 <h2 className="text-3xl font-hachi py-4">404 Page</h2>
 
-                <img className="w-[300px] h-[300px] py-4" src="/src/assets/images/notFoundImgAlt.png" alt="" />
+                <img className="w-[300px] h-[300px] py-4"  alt="" />
 
                 <h3 className="text-2xl font-bagel py-4">Page not found</h3>
 

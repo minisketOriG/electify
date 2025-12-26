@@ -25,8 +25,10 @@ import CategoryCheckout from '@/sitepages/voterpages/CategoryCheckout'
 
 
 function App() {
+
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
+     
       <Routes>
         <Route path='/' element={<Landingpage />} />
 
