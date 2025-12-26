@@ -9,7 +9,7 @@ import PageHeader from "@components/ClientPageComponents/PageHeader";
 import { IoIosArrowDropdownCircle } from "react-icons/io";
 
 //images
-import images from "../utils/AssetsUtils";
+import images from "@/utils/AssetsUtils";
 
 
 const Landingpage = () => {
