@@ -1,7 +1,7 @@
 
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import "@/"
+import '@/styling/global.css'
 import App from '@/sitepages/App'
 
 import { Provider } from 'react-redux'

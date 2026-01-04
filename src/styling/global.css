@@ -35,7 +35,7 @@
 
 .landing-heroSection{
   background-image: url(/src/assets/images/heroImg.png);
-  @apply flex items-center justify-center flex-col w-full h-[500px] bg-cover bg-center;
+  @apply flex items-center justify-center flex-col w-full h-125 bg-cover bg-center;
 }
 
 .landing-bullet-container {
@@ -47,7 +47,7 @@
 }
 
 .landing-join-button {
-    @apply bg-[#0C35BC] w-[500px] h-[60px] outline-4 outline-offset-2
+    @apply bg-[#0C35BC] w-125 h-15 outline-4 outline-offset-2
     outline-[#0C35BC]/50 font-poppins font-semibold text-2xl text-white rounded-[10px] cursor-pointer
     hover:scale-[0.9] hover:font-bold transition-all duration-300;
 }
@@ -58,18 +58,18 @@
 }
 
 .landing-subscribe-input {
-    @apply w-[300px] h-[40px] font-poppins font-semibold text-black outline-0 p-2 caret-[#0C35BC];
+    @apply w-75 h-10 font-poppins font-semibold text-black outline-0 p-2 caret-[#0C35BC];
 }
 
 
 .landing-subscribe-button {
-    @apply flex items-center justify-center px-4 min-w-[150px] h-[40px] font-poppins font-light border-2 border-[#0C35BC]/50 rounded-[5px] bg-[#0C35BC]
+    @apply flex items-center justify-center px-4 min-w-37.5 h-10 font-poppins font-light border-2 border-[#0C35BC]/50 rounded-[5px] bg-[#0C35BC]
     text-white cursor-pointer hover:bg-white hover:text-[#0C35BC] hover:font-semibold
     hover:border-[#0C35BC] transition-all duration-300;
 }
 
 .tableHead{
-    @apply bg-[#0C35BC] border border-black text-center text-white font-poppins font-bold text-[12px] h-[50px];
+    @apply bg-[#0C35BC] border border-black text-center text-white font-poppins font-bold text-[12px] h-12.5;
 }
 
 .tableData{
