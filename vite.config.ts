@@ -9,9 +9,9 @@ export default defineConfig({
   base: '/electify/',
   resolve: {
     alias: {
-      '@': path.resolve(path.dirname(new URL(import.meta.url).pathname), './src'),
-      '@assets': path.resolve(path.dirname(new URL(import.meta.url).pathname), './src/assets'),
-      '@components': path.resolve(path.dirname(new URL(import.meta.url).pathname), './src/components'),
+      '@': path.resolve(__dirname, './src/'),
+      '@assets': path.resolve(__dirname, './src/assets/'),
+      '@components': path.resolve(__dirname, './src/components/'),
     },
   },
 })
